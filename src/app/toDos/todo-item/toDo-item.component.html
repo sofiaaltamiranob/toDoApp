@@ -1,4 +1,4 @@
-<li [class.completed]="toDo.completado"
+<li [class.completed]="toDo.completado == true"
     [class.editing]="editing">
   <div class="view">
     <input class="toggle" [formControl]="chkCompletado" type="checkbox" />
